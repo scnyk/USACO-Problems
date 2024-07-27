@@ -1,5 +1,12 @@
 '''
-https://cses.fi/problemset/task/1666
+This is a CSES Problem found at https://cses.fi/problemset/task/1666
+
+Flood Fill uses a simple Depth-First Search to identify connected components within a grid (any nxm input) and counts the
+
+Building Roads follows a similar DFS-oriented structure - iterating through nodes to identify connected components, and keeping a 'bridge' node for each 
+city cluster to connect to others, as well as a road count (# of cities - 1). 
+This problem involves node/edge clusters, not an organized grid structure like Flood Fill.
+
 '''
 
 from collections import deque
